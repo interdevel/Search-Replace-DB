@@ -828,6 +828,9 @@ if ( ini_get( 'safe_mode' ) ) {
 /*
  Close out the html and exit.
 */ ?>
+
+<p><a href="<?php echo basename(__FILE__); ?>">Restart</a><p>
+
 		<div class="help">
 			<h4><a href="http://interconnectit.com/">interconnect/it</a> <a href="http://interconnectit.com/124/search-and-replace-for-wordpress-databases/">Safe Search and Replace on Database with Serialized Data v2.1.2</a></h4>
 			<p>This developer/sysadmin tool carries out search/replace functions on MySQL DBs and can handle serialised PHP Arrays and Objects.</p>
